@@ -1,0 +1,21 @@
+# from Ansible Galaxy
+- name: docker
+  src: andrewrothstein.docker
+  version: v5.0.4
+- name: docker-compose
+  src: franklinkim.docker-compose
+  version: 1.2.2
+
+# from git
+- name: sshd
+  src: https://github.com/yatesr/ansible-sshd.git
+  version: aa6f9b5686d1c97deff456af641ac7e55fcbff8d
+- name: ssl-keys
+  src: https://github.com/yatesr/ansible-sslkeys.git
+  version: 1fdf13bd502d57c337aa76916e294c3b63ec4446
+- name: sudo
+  src: https://github.com/yatesr/ansible-sudo.git
+  version: 2a55007541a2f340eec57e4e5a7efa1c3fc73d74
+- name: users
+  src: https://github.com/yatesr/ansible-users.git
+  version: efe5922cc2790256d7917f90728c7b5e2d14f990

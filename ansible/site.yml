@@ -1,0 +1,8 @@
+---
+# Master Playbook
+- hosts: all
+  become: true
+  roles:
+   - users
+   - sudo
+   - sshd
