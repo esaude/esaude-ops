@@ -14,13 +14,13 @@ users:
   yassin:
     comment: Yassin
     groups: 'admin'
-    ssh_keys: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDFWHblidvWQlHf+Jf+7JqavUIjeb9GCs0wUY2C3h4205C4TgDOTZV2lwU7j0kSuewEhBAQuigua0h2OTjnn3uQ6rIECUJP5j7TmzqIlrI11rdOjqwT4BWDbWGw549vXIGsLPF7zuRBa1vIq6ueMFfXFq/e7zjxSHreeyayvs8gYbzW1abgCHc7s3vRc3A/Z/V09oJUW4FiQvgdvGt8g109EgJUBnE+v1gaGOKEOYxlG1EA6SKGiOkDeWVA+9yKJ9PbGfaO98mdEOE/fERiijTkbexlIPTv71xK/tyuiQW6+BLUihuUQZk66uyrJePi5mrar/uApK8CxCIVOcdSjGS0PDtNajmgPUk/Qx3zTE7UAKjmpJL9riGZCxxxiIedbbdyxNoM80LpCM4DC+jI2SwFBk5HuHggaXaoHx9YMIjnBhQJsDE7LOAO+8yMwEisLvPRAZ+8Uqgcj/Ndj2S+AOF2GGPLPiCl+Ijqsm+V9vs75pKfFaZqEclU1dyYYjfpljSkD8lwWQTzpAywcyIFTfytNi21nNOPqiEAzdhj2XZDmTJh2r0zVFJEhkgzoTwT66+R6e9CdFToi24otlB99VdLP6BQSLM08N/1G43DteNjD0/kN7fugs2FkfjIgWmdShEDQfbUpzpfIgfiMqsgQCQlTfU6EgRQ3huGls+bYMn99Q== yassin.nurmahomed@ucglobalprograms.org"
+    ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDFWHblidvWQlHf+Jf+7JqavUIjeb9GCs0wUY2C3h4205C4TgDOTZV2lwU7j0kSuewEhBAQuigua0h2OTjnn3uQ6rIECUJP5j7TmzqIlrI11rdOjqwT4BWDbWGw549vXIGsLPF7zuRBa1vIq6ueMFfXFq/e7zjxSHreeyayvs8gYbzW1abgCHc7s3vRc3A/Z/V09oJUW4FiQvgdvGt8g109EgJUBnE+v1gaGOKEOYxlG1EA6SKGiOkDeWVA+9yKJ9PbGfaO98mdEOE/fERiijTkbexlIPTv71xK/tyuiQW6+BLUihuUQZk66uyrJePi5mrar/uApK8CxCIVOcdSjGS0PDtNajmgPUk/Qx3zTE7UAKjmpJL9riGZCxxxiIedbbdyxNoM80LpCM4DC+jI2SwFBk5HuHggaXaoHx9YMIjnBhQJsDE7LOAO+8yMwEisLvPRAZ+8Uqgcj/Ndj2S+AOF2GGPLPiCl+Ijqsm+V9vs75pKfFaZqEclU1dyYYjfpljSkD8lwWQTzpAywcyIFTfytNi21nNOPqiEAzdhj2XZDmTJh2r0zVFJEhkgzoTwT66+R6e9CdFToi24otlB99VdLP6BQSLM08N/1G43DteNjD0/kN7fugs2FkfjIgWmdShEDQfbUpzpfIgfiMqsgQCQlTfU6EgRQ3huGls+bYMn99Q== yassin.nurmahomed@ucglobalprograms.org"
 
 # Add a user like the examples above
 # desired-username:
 #   comment: Your Name
 #   groups: 'admin'
-#   ssh_keys: "Your public key"
+#   ssh_key: "Your public key"
 
 # Users that should be removed from all hosts
 # username:
