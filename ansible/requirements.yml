@@ -8,8 +8,8 @@
 
 # from git
 - name: sshd
-  src: https://github.com/yatesr/ansible-sshd.git
-  version: aa6f9b5686d1c97deff456af641ac7e55fcbff8d
+  src: https://github.com/esaude/ansible-sshd.git
+  version: 7a6ed43dfebf3f01382ba5bb6d87be35f1274996
 - name: ssl-keys
   src: https://github.com/yatesr/ansible-sslkeys.git
   version: 1fdf13bd502d57c337aa76916e294c3b63ec4446
