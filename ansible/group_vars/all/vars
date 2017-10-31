@@ -19,6 +19,10 @@ users:
     comment: Euclides
     groups: 'admin'
     ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC2gIaq6wBOIHjnHoDCTSTqzsD2Qt/lReGx5M5IMY4br//nGyb1u+Mw4pdUbmPe3OXLnirFk2WetSS4iSmfDwcNLVwjGADRFjmXiaEPLIdv1WHLAAMPG5gPRRDljIsi254kKh78PKVRCenYXMsUwwcQmMaTjPcowxbzt3QXXDd9ONtkDBJhLX7jwzANvBAw4LLmSk1rKHAzUjzTSfeLVohU7eNDuCK09hgE4UphFVB+RPuQtvkDV1JirVPoXtrdneChaFgWTkPTaWNP8/XpPtUVnrVjT7p3rQ6QXnFwsoEvmCr5wW+9VLvOg9tUg2swVyNperaukftO940VZsFM+bTp aprendiz@aprendiz-HP-ProBook-650-G1"
+  hamilton:
+      comment: Hamilton
+      groups: 'admin'
+      ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDc81H2kQPas7LYhHd936r4bXgQlmZJSd7Bw0taYTFKT8Pc/JjTiHhMSLzOMB4GtBWXMr+h2D71tNVD9re7iOnhxXzlAxs8ZD2AzRzxE8hX0jXYkrhTSM6BsAA5ljLJ5l57/gRYolcq1yJSHUEYGSRDS5+G1doQTAu45yI9NA+5XH2j1VuDcNSwjO8T0gqXkz9kZa0ci+sywKxcxpspU82gTESUYX88nkgVS1z0dPsqLVmMLa5egiuwaRBDbs3mKghHncocnH7Sm4uCwqueM1nCTYhxMPSoEr1uV/ozk73YMXkrbyL9tb5EtLC7ozJSEUA0wF9HmxBbgz/AtMORwniF administrator@ubuntu"
 
 
 # Add a user like the examples above
