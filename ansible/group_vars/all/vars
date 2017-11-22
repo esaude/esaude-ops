@@ -23,6 +23,10 @@ users:
       comment: Hamilton
       groups: 'admin'
       ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDc81H2kQPas7LYhHd936r4bXgQlmZJSd7Bw0taYTFKT8Pc/JjTiHhMSLzOMB4GtBWXMr+h2D71tNVD9re7iOnhxXzlAxs8ZD2AzRzxE8hX0jXYkrhTSM6BsAA5ljLJ5l57/gRYolcq1yJSHUEYGSRDS5+G1doQTAu45yI9NA+5XH2j1VuDcNSwjO8T0gqXkz9kZa0ci+sywKxcxpspU82gTESUYX88nkgVS1z0dPsqLVmMLa5egiuwaRBDbs3mKghHncocnH7Sm4uCwqueM1nCTYhxMPSoEr1uV/ozk73YMXkrbyL9tb5EtLC7ozJSEUA0wF9HmxBbgz/AtMORwniF administrator@ubuntu"
+  nicholas:
+      comment: Nicholas
+      groups: 'admin'
+      ssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDubcnYXNRHwscbOtWoA9H5eVehv0Uhze4hUDuWUxQcHE5mrO17xH5zocvTbViZcuTbSGi+snhxGoC6ej2lYFDHcwTH10FU/YtR18JtCfI4nRJZLHNoj+kVgZEJNw4WCSfemChbMxZSOizEoNB3WQxX0sT1mT680KQ3rQp/dZWclLjz/HoxVcxn5K08yh87jsWfz8lISOXFZgRt7ByidA0yjSJUa8ylIZKbytTJ5Oz6yegEBn908es7/oPiGluEiJFaVCs/H3pjqzxjjvUaB8c25PCrFlLU7Wbt+lEMb5J/wR3vujy+4NTTVyjZFb5jMAtw1JOhy0raE7A737Q9UGaCbm8mluCI1/8hwdBVZca/79tCYflqqIx9qAYqwkqUT9LMUCayx/t5zzFXUH5zfyWQRrXuDYCrmhlY9TlJXhihhSprHByW2V+xwENx9+zxpwIJLEm+j7amAof4lKwQpysjO9Cz3KFJFHLvFrZHaJLQijK5pW1+3dW8Yof2hytZ2NQ+ylLOM2NW0Nwm9dXsG8ZHmCpahXCIIvTQJvTYOlvra8c6Q1QHlrPUYsEdV85xLsKaqBO/tepA7vSJrjh/oICnGz9e4faaD2/1S9s3R2Rg2WGZYN4SbpWh3HFE2LItPtJKw8Sw15NDC2789Sf0sn7thzgpqbXp5EdxVC+A5y/+Ww== nicotwendelee@gmail.com"
 
 
 # Add a user like the examples above
