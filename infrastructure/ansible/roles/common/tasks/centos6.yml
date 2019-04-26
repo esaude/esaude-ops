@@ -1,0 +1,4 @@
+---
+- include: create_users.yml
+- include: centos6/sshd_config.yml
+- include: centos6/add_swapspace.yml

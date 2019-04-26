@@ -1,0 +1,15 @@
+---
+- name: allow ports in ufw
+  ufw:
+    rule: allow
+    port: "{{ item }}"
+  with_items: "{{ allowed_ports }}"
+  notify:
+  - reload ufw
+- name: deny ports in ufw
+  ufw:
+    rule: deny
+    port: "{{ item }}"
+  with_items: "{{ denied_ports }}"
+  notify:
+  - reload ufw

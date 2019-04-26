@@ -1,0 +1,19 @@
+digraph G {
+  label="MOASIS QA";
+  rankdir="LR";
+
+  subgraph cluster0 {
+    label="EPTS Metadata Server"
+    epts_metadata_01 [label="epts-metadata-01\n172.20.8.154"];
+  }
+
+  subgraph cluster1 {
+    label="EPTS QA Server"
+    epts_qa_01 [label="epts-qa-01\n172.20.8.150"];
+  }
+
+  subgraph cluster2 {
+    label="POC QA Server"
+    poc_qa_01 [label="poc-qa-01\n172.20.8.151"];
+  }
+}

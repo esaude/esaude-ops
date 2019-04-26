@@ -1,0 +1,5 @@
+---
+- include: ubuntu.yml
+  when: install_ubuntu == true
+- include: centos6.yml
+  when: install_centos6 == true

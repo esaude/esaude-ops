@@ -1,0 +1,10 @@
+---
+- name: enable ufw
+  ufw:
+    state: enabled
+- name: allow openssh
+  ufw:
+    rule: allow
+    name: OpenSSH
+  notify:
+  - reload ufw

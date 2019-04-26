@@ -1,0 +1,7 @@
+---
+permit_root_login: "no"
+permit_password_authentication: "no"
+install_ubuntu: yes
+install_centos7: no
+install_docker: no
+install_git: no

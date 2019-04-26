@@ -1,0 +1,11 @@
+[epts_metadata]
+142.93.61.229 public_network_interface=eno16780032
+
+[epts_qa]
+206.189.235.183 public_network_interface=eno16780032
+
+[epts_staging]
+68.183.124.183 public_network_interface=eno16780032
+
+[poc_qa]
+104.248.229.110 public_network_interface=eno16780032

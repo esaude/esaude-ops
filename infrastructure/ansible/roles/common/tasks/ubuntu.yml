@@ -1,0 +1,11 @@
+---
+- include: create_users.yml
+- include: ubuntu/deploy_sshd_config.yml
+- include: ubuntu/enable_ufw.yml
+- include: ubuntu/allow_ufw_ports.yml
+- include: ubuntu/install_docker.yml
+  when: install_docker == true
+- include: ubuntu/install_docker_network.yml
+  when: install_docker == true
+- include: ubuntu/update-ufw-rules.yml
+  when: install_docker == true
