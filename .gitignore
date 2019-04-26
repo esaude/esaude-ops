@@ -1,0 +1,4 @@
+data/
+*.retry
+**/.vagrant
+node_modules/
