@@ -12,9 +12,11 @@ services:
     image: mysql:5.6
     environment:
       MYSQL_ROOT_PASSWORD: "test"
-      MYSQL_DATABASE: "openmrs"
+      MYSQL_DATABASE: "openmrsFGH"
       MYSQL_USER: "openmrs"
       MYSQL_PASSWORD: "openmrs"
+    ports:
+      - "3306:3306"
     command: --max_allowed_packet=32505856
     volumes:
       - mysql-data:/var/lib/mysql
