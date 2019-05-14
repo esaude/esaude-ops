@@ -7,8 +7,8 @@ volumes:
   mysql-data:
 
 services:
-  mysql-db:
-    container_name: mysql-db
+  mysql:
+    container_name: mysql
     image: mysql:5.6
     environment:
       MYSQL_ROOT_PASSWORD: "test"
@@ -26,16 +26,20 @@ services:
     build:
       context: ./openmrs
       args:
-        DB_HOST: "mysql-db"
-        DB_DATABASE: "openmrs"
+        DB_HOST: "mysql"
+        DB_DATABASE: "openmrsFGH"
         DB_USERNAME: "openmrs"
         DB_PASSWORD: "openmrs"
         DB_AUTO_UPDATE: 'true'
     image: openmrs-1.11.7
+    environment:
+      JPDA_ADDRESS: 1044
+      JPDA_TRANSPORT: "dt_socket"
     ports:
-      - "8081:8080"
+      - "8080:8080"
+      - "1044:1044"
     depends_on:
-      - mysql-db
+      - mysql
     networks:
       - epts
 

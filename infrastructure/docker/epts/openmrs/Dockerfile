@@ -7,7 +7,7 @@ RUN apk update && apk add curl unzip; \
 
 FROM tomcat:7-jre7-alpine
 
-ARG DB_HOST="mysql-db"
+ARG DB_HOST="mysql"
 ARG DB_DATABASE="openmrs"
 ARG DB_USERNAME="openmrs"
 ARG DB_PASSWORD="openmrs"
