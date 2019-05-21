@@ -61,7 +61,7 @@ developers:
     key: https://github.com/Guimino.keys
     shell: /bin/bash
     state: absent
-  name: Edgencio Rubene
+  - name: Edgencio Rubene
     username: edgencior
     password: $6$iZ7JdZDmcFMZHjf$9jbnq2GqjcaH4s4R59Zq32i5/IhHlJR2QD5s9zIZ/w.9Neb/C.OYDGQ1ZCQ3PPCPdlziaxMnQ1Z4iVZa0nLES/
     key: https://github.com/Edgencio.keys
