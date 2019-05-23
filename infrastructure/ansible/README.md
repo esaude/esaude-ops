@@ -61,7 +61,7 @@ ansible-playbook \
   --become \
   --inventory=inventories/qa \
   --user=deploy \
-  playbooks/deploy_epts_qa.yml
+  playbooks/epts_qa.yml
 ```
 
 If you are configuring the servers for the first time you will need to use the `root` user and can remove the `--become` flag. You will need to manually SSH into the servers and allow the SSH connection before the deploy script will run successfully.
