@@ -1,14 +1,14 @@
 [epts_metadata]
-metadata.epts.e-saude.net/ public_network_interface=eno16780032
+metadata.epts.e-saude.net public_network_interface=eno16780032
 
 [epts_qa]
-qa.epts.e-saude.net/ public_network_interface=eno16780032
+qa.epts.e-saude.net public_network_interface=eno16780032
 
 [epts_staging]
-staging.epts.e-saude.net/ public_network_interface=eno16780032
+staging.epts.e-saude.net public_network_interface=eno16780032
 
 [poc_qa]
-qa.poc.e-saude.net/ public_network_interface=eno16780032
+qa.poc.e-saude.net public_network_interface=eno16780032
 
 [poc_staging]
-staging.poc.e-saude.net/ public_network_interface=eno16780032
+staging.poc.e-saude.net public_network_interface=eno16780032

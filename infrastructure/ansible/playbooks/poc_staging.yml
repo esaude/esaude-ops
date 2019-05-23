@@ -1,5 +1,5 @@
 ---
-- hosts: poc_qa
+- hosts: poc_staging
   vars:
     allowed_ports:
       - 80
