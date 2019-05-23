@@ -21,6 +21,7 @@
       - paulom
       - edrissem
       - joaom
+      - nicholasi
     install_ubuntu: yes
     install_centos6: no
     install_docker: yes

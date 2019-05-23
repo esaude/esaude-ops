@@ -4,7 +4,7 @@
     allowed_ports:
       - 80
     denied_ports: # ports that have been allowed must be denied to be blocked by the firewall
-      -
+      - 
     usernamesToAdd:
       - nathanf
       - amolc

@@ -67,5 +67,11 @@ developers:
     key: https://github.com/Edgencio.keys
     shell: /bin/bash
     state: present
+  - name: Nicholas Ingosi
+    username: nicholasi
+    password: $6$oZCcZCztdwG$Q88jH68BNc5PK0Wh5brMBC17673qnw92n/kez/P1J3.8MFC2IQwOZ/AbSbUYTdq95qXBsfci1.hflFI967pFU/
+    key: https://github.com/ningosi.keys
+    shell: /bin/bash
+    state: present
 
 
