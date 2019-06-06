@@ -12,6 +12,7 @@
       - joaom
       - paulom
       - edgencior
+      - paule
     install_ubuntu: no
     install_centos6: yes
     install_docker: no

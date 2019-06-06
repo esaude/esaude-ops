@@ -73,5 +73,11 @@ developers:
     key: https://github.com/ningosi.keys
     shell: /bin/bash
     state: present
+  - name: Paul Ekirapa
+    username: paule
+    password: $6$a2ul.uQc$MpIsv3SIJqXcexe/n6A4vdZ6dYPSEzJ947/c27SZdVCsnY9NHACD0Vf6wKa4Il.abmw17Ghc52YZ1YX0gD66M0
+    key: https://github.com/Ekirapapaul.keys
+    shell: /bin/bash
+    state: present
 
 
