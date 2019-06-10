@@ -1,19 +1,34 @@
 digraph G {
-  label="MOASIS QA";
+  label="MOASIS QA Server with all partner dbs";
   rankdir="LR";
 
-  subgraph cluster0 {
-    label="EPTS Metadata Server"
-    epts_metadata_01 [label="epts-metadata-01\n172.20.8.154"];
-  }
+  start_here [label="it's me(start here)"];
+  nginx [label="Nginx Container"];
 
-  subgraph cluster1 {
-    label="EPTS QA Server"
-    epts_qa_01 [label="epts-qa-01\n172.20.8.150"];
-  }
+  FGH [label="Tomcat - FGH"];
+  FHI360 [label="Tomcat - FHI360"];
+  ARIEL [label="Tomcat - ARIEL"];
+  EGPAF [label="Tomcat - EGPAF"];
+  ICAP [label="Tomcat - ICAP"];
+  CCS [label="Tomcat - CCS"];
 
-  subgraph cluster2 {
-    label="POC QA Server"
-    poc_qa_01 [label="poc-qa-01\n172.20.8.151"];
-  }
+  subgraph cluster_0 {
+    label="MySQL Container";
+    style=filled;
+
+    FGH_DB [label="Db: openmrsFGH"];
+    ARIEL_DB [label="Db: openmrsARIEL"];
+    ICAP_DB [label="Db: openmrsICAP"];
+    FHI360_DB [label="Db: openmrsFHI360"];
+    EGPAF_DB [label="Db: openmrsEGPAF"];
+    CCS_DB [label="Db: openmrsCCS"];
+  }  
+
+  start_here -> nginx;
+  nginx -> FGH -> FGH_DB;
+  nginx -> ARIEL -> ARIEL_DB;
+  nginx -> EGPAF -> EGPAF_DB;
+  nginx -> ICAP -> ICAP_DB;
+  nginx -> FHI360 -> FHI360_DB;
+  nginx -> CCS -> CCS_DB;
 }
