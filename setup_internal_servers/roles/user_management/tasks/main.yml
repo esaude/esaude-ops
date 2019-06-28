@@ -1,0 +1,53 @@
+---
+# tasks file for ../user_management/
+
+- name: Ensure group "admin" exists
+  group:
+    name: admin
+    state: present
+
+- name: Add the user 'edrisse' with a specific uid and a primary group of 'admin'
+  user:
+    name: emussa
+    comment: Edrisse Mussa
+    uid: 1040
+    group: admin
+    shell: /bin/bash
+    password: '$6$Iu1oM0nJMYse$mQNeNhhxuTNunrTaWXqfwQ9nYOqMdi0cBJ3H7L1OQ6JM.O7zHR25Ge/DLDbVfUApG6ElR9SNxZA.fhV2x5Z96/'
+
+- name: Add the user 'yassin' with a specific uid and a primary group of 'admin'
+  user:
+    name: ynurmahomed
+    comment: Yassin Nurmahomed 
+    uid: 1041
+    group: admin
+    shell: /bin/bash
+    password: '$6$Iu1oM0nJMYse$mQNeNhhxuTNunrTaWXqfwQ9nYOqMdi0cBJ3H7L1OQ6JM.O7zHR25Ge/DLDbVfUApG6ElR9SNxZA.fhV2x5Z96/'
+
+- name: Add the user 'paulo' with a specific uid and a primary group of 'admin'
+  user:
+    name: pmatsinhe
+    comment: Paulo Sergio Matsine  
+    uid: 1042
+    group: admin
+    shell: /bin/bash
+    password: '$6$Iu1oM0nJMYse$mQNeNhhxuTNunrTaWXqfwQ9nYOqMdi0cBJ3H7L1OQ6JM.O7zHR25Ge/DLDbVfUApG6ElR9SNxZA.fhV2x5Z96/'
+
+- name: Add the user 'Nathan' with a specific uid and a primary group of 'admin'
+  user:
+    name: nfloor
+    comment: Nathan Floor  
+    uid: 1043
+    group: admin
+    shell: /bin/bash
+    password: '$6$Iu1oM0nJMYse$mQNeNhhxuTNunrTaWXqfwQ9nYOqMdi0cBJ3H7L1OQ6JM.O7zHR25Ge/DLDbVfUApG6ElR9SNxZA.fhV2x5Z96/'
+
+
+- name: Add the user 'Joao' with a specific uid and a primary group of 'admin'
+  user:
+    name: jmachiana
+    comment: Joao Machiana  
+    uid: 1044
+    group: admin
+    shell: /bin/bash
+    password: '$6$Iu1oM0nJMYse$mQNeNhhxuTNunrTaWXqfwQ9nYOqMdi0cBJ3H7L1OQ6JM.O7zHR25Ge/DLDbVfUApG6ElR9SNxZA.fhV2x5Z96/'

@@ -1,0 +1,9 @@
+- name: installing vim
+  yum: 
+    name: vim 
+    state: present
+
+- name: installing git
+  yum: 
+    name: git 
+    state: present

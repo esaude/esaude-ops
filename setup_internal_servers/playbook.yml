@@ -1,0 +1,11 @@
+---
+- hosts: my_hosts 
+  become: yes
+  roles: 
+   - basic
+   - user_management
+  #debian_based: true
+  #rpm_based: true
+    
+
+...    
