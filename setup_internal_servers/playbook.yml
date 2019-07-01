@@ -4,8 +4,7 @@
   roles: 
    - basic
    - user_management
-  #debian_based: true
-  #rpm_based: true
+  
     
 
 ...    

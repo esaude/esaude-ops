@@ -1,2 +1,81 @@
----
 # vars file for ../user_management/
+---
+ developers:
+  - name: Nathan Floor
+    username: nathanf
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/nthfloor.keys
+    shell: /bin/bash
+    state: present
+  - name: Paulo Sérgio Jaime Matsinhe
+    username: paulom
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/psmatsinhe.keys
+    shell: /bin/bash
+    state: present
+  - name: Edrisse Mussa
+    username: emussa
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/edrisse.keys
+    shell: /bin/bash
+    state: present
+  - name: Joao Machiana
+    username: joaom
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/joaomachiana.keys
+    shell: /bin/bash
+    state: present
+  - name: Edgencio Rubene
+    username: erubene
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    key: https://github.com/Edgencio.keys
+    shell: /bin/bash
+    state: present
+  - name: Nicholas Ingosi
+    username: nicholasi
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/ningosi.keys
+    shell: /bin/bash
+    state: present
+  - name: Paul Ekirapa
+    username: paule
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/Ekirapapaul.keys
+    shell: /bin/bash
+    state: present
+  - name: Add the user 'yassin' with a specific uid and a primary group of 'admin'
+    username: ynurmahomed
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/Ekirapapaul.keys # need to check for this user
+    shell: /bin/bash
+    state: present
+  - name: Paulo Sergio Matsine  
+    username: pmatsinhe
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/Ekirapapaul.keys # need to check for this user
+    shell: /bin/bash
+    state: present
+  - name: Joao Machiana 
+    username: jmachiana 
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/Ekirapapaul.keys # need to check for this user
+    shell: /bin/bash
+    state: present
+  - name: Simao Mazive 
+    username: smazive 
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/Ekirapapaul.keys # need to check for this user
+    shell: /bin/bash
+    state: present
+  - name: Amos Isaias 
+    username: aisaias 
+    password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
+    #key: https://github.com/Ekirapapaul.keys # need to check for this user
+    shell: /bin/bash
+    state: present
+
+
+    
+
+
+
