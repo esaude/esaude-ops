@@ -1,7 +1,8 @@
 ---
 
-- include: rpm_based/add_swapspace.yml
+#- include: rpm_based/add_swapspace.yml
 - include: rpm_based/sshd_config.yml
+- include: rpm_based/install_docker_rpm.yml
 
 - name: installing vim for rpm based OS
   yum: 
