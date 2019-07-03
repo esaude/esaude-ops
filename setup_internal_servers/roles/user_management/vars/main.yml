@@ -1,76 +1,87 @@
-# vars file for ../user_management/
 ---
  developers:
   - name: Nathan Floor
     username: nathanf
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/nthfloor.keys
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Paulo Sérgio Jaime Matsinhe
     username: paulom
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/psmatsinhe.keys
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Edrisse Mussa
     username: emussa
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/edrisse.keys
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Joao Machiana
     username: joaom
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/joaomachiana.keys
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Edgencio Rubene
     username: erubene
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
-    key: https://github.com/Edgencio.keys
+    #key: https://github.com/Edgencio.keys
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Nicholas Ingosi
     username: nicholasi
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/ningosi.keys
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Paul Ekirapa
     username: paule
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/Ekirapapaul.keys
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Add the user 'yassin' with a specific uid and a primary group of 'admin'
     username: ynurmahomed
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/Ekirapapaul.keys # need to check for this user
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Paulo Sergio Matsine  
     username: pmatsinhe
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/Ekirapapaul.keys # need to check for this user
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Joao Machiana 
     username: jmachiana 
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/Ekirapapaul.keys # need to check for this user
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Simao Mazive 
     username: smazive 
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/Ekirapapaul.keys # need to check for this user
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
   - name: Amos Isaias 
     username: aisaias 
     password: '$6$zz0Kwdvicua$RzH37of0/ZFD/BCH1pvz/o6L/LbMLyFSqY2.oMTtkWyTVdw2BBZy2yORbu/uhPbMVhvMRhqlwQVpq8F6so0vi/'
     #key: https://github.com/Ekirapapaul.keys # need to check for this user
+    key: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC075ITeAxsWqPvO94Nxl7R0BjsgXtqMRKCTOe9wWeZB+oRmxLYameDPvguPTRkZCfXS4UDPB3e4Pd+i169QDmWllIhPTWZD7nBM07SrRVUtqCe0wHN+i72EPcwUIO0I0kot8V+6yatBY5YzSrZYRFlukBNwrLPjqHx+raFNRiB/mhRwmAI+ZnUHyjT9qrdGDPpRpO69uK7Nrbfc29uidKCOU4LmqMIpwPfJUwrm8KTaGeY1x9UjNcEkkF/Ibz2/6HPFLnXYlC3WJhcP+8j807PXczhzyX48ecidzgv78ERBz6InDNhjqWyDXjcHOfQZwNH7NOB7GYm8IbIjs5PWOID'
     shell: /bin/bash
     state: present
 
@@ -79,3 +90,6 @@
 
 
 
+
+
+  

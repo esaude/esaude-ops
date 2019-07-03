@@ -1,0 +1,23 @@
+---
+- name: accept ufw forwarding policy
+  replace:
+    dest: /etc/default/ufw
+    backup: yes
+    regexp: ^DEFAULT_FORWARD_POLICY="DROP"
+    replace: DEFAULT_FORWARD_POLICY="ACCEPT"
+  notify:
+    - reload ufw
+
+- name: add docker network to ufw before.rules
+  blockinfile:
+    dest: /etc/ufw/before.rules
+    backup: yes
+    insertbefore: "^[*]filter"
+    marker: "# {mark} ANSIBLE MANAGED BLOCK"
+    block: |
+      *nat
+      :POSTROUTING ACCEPT [0:0]
+      -A POSTROUTING ! -o docker0 -s 172.17.0.0/16 -j MASQUERADE
+      COMMIT
+  notify:
+    - reload ufw

@@ -1,8 +1,8 @@
 ---
 # tasks file for ../basic/
 
-- include: debian_based.yml
+- include: debian.yml
   when: ansible_os_family == "Debian" 
 
-- include: rpm_based.yml
+- include: rpm.yml
   when: ansible_os_family == "Redhat"

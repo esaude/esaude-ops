@@ -1,10 +1,16 @@
 ---
 - hosts: my_hosts 
+  vars:
+    allowed_ports:
+      - 80
+      - 22
+      - 8080
+    denied_ports:
+    -
+    docker_network: "internal_server"
   become: yes
   roles: 
    - basic
-   - user_management
-  
-    
+   #- user_management
 
 ...    

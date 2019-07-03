@@ -1,0 +1,13 @@
+---
+- name: check if swap space has been configured
+  stat:
+    path: /swapfile
+  register: swap_status
+
+- name: setup 4Gb swap space
+  command: dd if=/dev/zero of=/swapfile bs=1024 count=4096k && mkswap /swapfile
+  when: not swap_status.stat.exists
+
+- name: activate swap space
+  command: sudo swapon /swapfile && echo '/swapfile   swap   swap    defaults        0 0' | sudo tee --append /etc/fstab
+  when: not swap_status.stat.exists

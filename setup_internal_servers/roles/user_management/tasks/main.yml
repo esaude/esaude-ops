@@ -1,19 +1,7 @@
 ---
 # tasks file for ../user_management/
 
-- name: Ensure group "admin" exists
-  group:
-    name: admin
-    state: present
-
-
-- name: create users
-  user: 
-   name: "{{ item.username }}"
-   password: "{{ item.password }}"
-   group: admin
-   shell: "{{ item.shell }}"
-  with_items: "{{ developers }}"
-  when: "item.state == 'present' "
+- include: create-user.yml
+- include: remote-connection.yml
 
 

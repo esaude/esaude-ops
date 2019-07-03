@@ -1,0 +1,11 @@
+---
+
+- name: add developers authorized keys
+  authorized_key:
+    user: "{{ item.username }}"
+    key: "{{ item.key }}"
+    manage_dir: yes 
+    state: "{{ item.state }}"  
+  with_items: "{{ developers }}"
+  when:
+    - "item.state == 'present'"
