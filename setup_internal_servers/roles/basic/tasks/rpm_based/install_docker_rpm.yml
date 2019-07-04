@@ -49,4 +49,20 @@
    state: started
    enabled: yes
   become: yes
+#
+- name: Install epel-release - centos
+  yum:
+    name: epel-release
+    state: latest
+
+- name: Install python-pip - centos
+  yum:
+    name: python-pip
+    state: latest
+
+- name: install docker python-modules with PIP on centos
+  pip:
+    name: docker
+
+
 

@@ -1,0 +1,23 @@
+---
+# tasks file for mysql
+
+- name: create mysql volume directory
+  file: path=/opt/openmrs-mysql state=directory
+
+- name: install mysql in docker
+  docker_container:
+    name: mysql-db
+    image: mysql:5.6
+    command: --max_allowed_packet=32505856      # Set max_allowed_packet to 256M (or any other value)
+    state: started
+    pull: yes
+    restart_policy: unless-stopped
+    env:
+      MYSQL_ROOT_PASSWORD: "{{ mysql_root_password }}"
+      MYSQL_DATABASE: "openmrs"
+      MYSQL_USER: "openmrs"
+      MYSQL_PASSWORD: "{{ mysql_openmrs_password }}"
+    volumes:
+      - "/opt/openmrs-mysql:/var/lib/mysql"
+    networks:
+      - name: "{{ docker_network }}"

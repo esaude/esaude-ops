@@ -34,12 +34,12 @@
     name: docker-engine
     state: present
 
-- name: install python-pip 
+- name: install python-pip
   apt:
     state: latest
     name: python-pip
 
-- name: docker-by-pip  
+- name: docker-by-pip
   pip:
     name: docker
 
