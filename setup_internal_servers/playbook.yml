@@ -26,8 +26,11 @@
 
   become: yes
   roles:
-   - basic
+   #- basic
    #- user_management
-   - mysql
+   #- docker
+   #- mysql
+   - openmrs
+   - firewall
 
 ...

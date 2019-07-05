@@ -4,8 +4,6 @@
 - include: debian_based/allow_ufw_ports.yml
 - include: debian_based/deploy_sshd_config.yml
 - include: debian_based/enable_ufw.yml
-- include: debian_based/install_docker.yml
-- include: debian_based/install_docker_network.yml
 - include: debian_based/update-ufw-rules.yml
 
 - name: installing vim for debian based OS

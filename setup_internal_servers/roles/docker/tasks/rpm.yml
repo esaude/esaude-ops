@@ -1,0 +1,8 @@
+---
+
+ 
+ 
+- include: rpm_based/install_docker_rpm.yml
+- include: rpm_based/install_docker_network-rpm.yml
+
+ 

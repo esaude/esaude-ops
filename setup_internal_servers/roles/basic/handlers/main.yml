@@ -1,7 +1,5 @@
 ---
 # handlers file for ../basic/
- 
+
 - include: restart_sshd.yml
 - include: reload_ufw.yml
-- include: reload_docker.yml
-- include: restart_docker.yml
