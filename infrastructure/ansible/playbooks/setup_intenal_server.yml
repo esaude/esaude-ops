@@ -6,9 +6,9 @@
       - 22
       - 8080
     denied_ports:
-      -
+    -
     docker_network: "internal_server"
-    mysql_root_password: !vault |
+   mysql_root_password: !vault |
           $ANSIBLE_VAULT;1.1;AES256
           33326462323566343335316438626431353437373163613963333630366539313362393135653134
           3034616636646666303537663932326164313539336533350a613163633363353731616161633363
@@ -26,7 +26,6 @@
   become: yes
   roles:
    - basic
-   - user_management
    - docker
    - mysql
    - openmrs

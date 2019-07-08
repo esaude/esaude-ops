@@ -1,0 +1,9 @@
+---
+# tasks file for docker
+
+
+- include: debian.yml
+  when: ansible_os_family == "Debian"
+
+- include: rpm.yml
+  when: ansible_distribution == "CentOS"

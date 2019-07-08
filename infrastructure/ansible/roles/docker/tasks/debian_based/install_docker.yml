@@ -1,0 +1,56 @@
+---
+
+- name: install certain python modules for docker
+  pip:
+    name: "{{ item.name }}"
+    version: "{{ item.version }}"
+    state: present
+  with_items:
+  - { name: docker, version: 3.3.0 }
+
+- name: "install docker dependency : apt-transport-https"
+  apt:
+    name: apt-transport-https
+    state: latest
+
+- name: "install docker dependency : ca-certificates"
+  apt:
+    name: ca-certificates
+    state: latest
+
+- name: install docker key
+  apt_key:
+    keyserver: hkp://ha.pool.sks-keyservers.net:80
+    id: 58118E89F3A912897C070ADBF76221572C52609D
+    state: present
+
+- name: install docker repository
+  apt_repository:
+    repo: deb https://apt.dockerproject.org/repo ubuntu-xenial main
+    state: present
+
+- name: install docker engine
+  apt:
+    name: docker-engine
+    state: present
+
+- name: install python-pip
+  apt:
+    state: latest
+    name: python-pip
+
+- name: docker-by-pip
+  pip:
+    name: docker
+
+
+
+- name: disable iptables for docker
+  copy:
+    src: docker-daemon.json
+    dest: /etc/docker/daemon.json
+    owner: root
+    group: root
+    mode: 0600
+  notify:
+    - restart docker
