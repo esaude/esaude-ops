@@ -48,7 +48,7 @@ developers:
     password: $6$7qwSA1RiQ$Z.FROt0AkHMWn7iXdJ/gxo8Jd/rFki7AoBXKS40I9UjpaHHxRyP4C32Jhb2oBEjfVrbFEtKfouREN.qa5FQSi0
     key: https://github.com/edrisse.keys
     shell: /bin/bash
-    state: present
+    state: absent
   - name: Joao Machiana
     username: joaom
     password: $6$Q9vzjE2qJHUv6z7P$6s/F.6zit56iEvRy84B5oAL3P1D4c2nUvjC3hG2Ik83vNH1jSMEVQ.lWMJDNH1W0q7EoEwZ5L5BFARvExvOOR/
@@ -77,6 +77,12 @@ developers:
     username: paule
     password: $6$a2ul.uQc$MpIsv3SIJqXcexe/n6A4vdZ6dYPSEzJ947/c27SZdVCsnY9NHACD0Vf6wKa4Il.abmw17Ghc52YZ1YX0gD66M0
     key: https://github.com/Ekirapapaul.keys
+    shell: /bin/bash
+    state: present
+  - name: Sushant Patil
+    username: sushantep
+    password: $6$LhdYpZsQ4q8zbN$it/HgA4UQiFHCuKNSTTQDGOzBKGUCtKCym/4/VroIJtSo9jwSPbb4Kz1ufdtRltgfFxBlLXAcnvedHyZhUqLe/
+    key: https://github.com/sushantpatil1214.keys
     shell: /bin/bash
     state: present
 
