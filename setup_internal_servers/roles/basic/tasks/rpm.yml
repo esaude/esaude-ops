@@ -1,0 +1,19 @@
+---
+
+#- include: rpm_based/add_swapspace.yml
+- include: rpm_based/sshd_config.yml
+
+- name: installing vim for rpm based OS
+  yum:
+    name: vim
+    state: present
+
+- name: installing git for rpm based OS
+  yum:
+    name: git
+    state: present
+
+- name: installing git for rpm based OS
+  yum:
+    name: git
+    state: present

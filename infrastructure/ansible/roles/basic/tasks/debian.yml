@@ -1,0 +1,22 @@
+---
+
+
+- include: debian_based/allow_ufw_ports.yml
+- include: debian_based/deploy_sshd_config.yml
+- include: debian_based/enable_ufw.yml
+- include: debian_based/update-ufw-rules.yml
+
+- name: installing vim for debian based OS
+  apt:
+    name: vim
+    state: present
+
+- name: installing git for debian based OS
+  apt: 
+   name: git 
+   state: present
+
+ 
+
+ 
+   

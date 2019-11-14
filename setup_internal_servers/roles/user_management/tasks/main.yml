@@ -1,0 +1,7 @@
+---
+# tasks file for ../user_management/
+
+- include: create-user.yml
+- include: remote-connection.yml
+
+

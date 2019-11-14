@@ -1,0 +1,27 @@
+---
+ 
+#- name: decrypt the  file
+ # shell: decrypt.sh
+
+
+- name: create group "developers"
+  group:
+    name: developers
+    state: present
+
+
+- name: create users
+  user: 
+   name: "{{ item.username }}"
+   password: "{{ item.password }}"
+   group: developers
+   shell: "{{ item.shell }}"
+   state: "{{ item.state }}"
+  with_items: "{{ developers }}"
+  when: "item.state == 'present' "
+
+  
+
+
+     
+

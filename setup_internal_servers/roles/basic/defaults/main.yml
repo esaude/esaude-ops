@@ -1,0 +1,3 @@
+---
+# defaults file for ../basic/
+public_network_interface: eth0

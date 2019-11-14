@@ -1,0 +1,12 @@
+---
+
+
+ 
+- include: debian_based/install_docker.yml
+- include: debian_based/install_docker_network.yml
+ 
+
+ 
+
+ 
+   
